@@ -1,20 +1,35 @@
 .game-field {
   background-color: #FFFF00;
-  min-height: 15vh;
-  margin: 1px 1px 1px 1px;
-  line-height: 15vh;
+  min-height: 10vh;
+    margin: 1px 1px 1px 1px;
+  line-height: 10vh;
 }
 
 .target {
-  background-color: #FFFF00;
+ 
  background:url("heart.jpg");
-  background-size:cover;
+  background-size:100% 100%;
   background-repeat: no-repeat ;
-   color: white;
-  font-size: 24pt;
+  color:white; 
+  font-size: 20pt;
   text-align: center;
 }
 
 .miss {
   background-color: #8B0000;
+}
+
+@media (max-width: 450px) {
+	.target{
+		background-size:100% 100%;
+	}
+	
+
+  .game-field {
+  background-color: #FFFF00;
+  min-height: 9vh;
+   margin: 1px 1px 1px 1px;
+  line-height: 9vh;
+}
+
 }
