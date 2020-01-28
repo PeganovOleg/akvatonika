@@ -7,7 +7,7 @@
 
 .target {
  
- background:url("heart.jpg");
+ background:url("heart2.png");
   background-size:100% 100%;
   background-repeat: no-repeat ;
   color:white; 
@@ -19,10 +19,10 @@
   background-color: #8B0000;
 }
 
-@media (max-width: 450px) {
-	.target{
-		background-size:100% 100%;
-	}
+@media (max-width: 550px) {
+  .target {
+    background-size:100% 100%;
+   }  
 	
 
   .game-field {
