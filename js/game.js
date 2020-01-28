@@ -1,5 +1,6 @@
-const numDivs = 36;
-const maxHits = 10;
+const numDivs = 30;
+const maxHits = 14;
+const pobeda  = "ура! ни одного промаха! мороженка почти ваша!"
 
 let hits = 0;
 let firstHitTime = 0;
@@ -36,6 +37,13 @@ function endGame() {
   let totalPlayedMillis = getTimestamp() - firstHitTime;
    console.log(totalPlayedMillis);
   let totalPlayedSeconds = Number(totalPlayedMillis/1000).toPrecision(3);
+
+if (Promah===0) 
+  { 
+   $("#promah-played-non").text(pobeda);
+  }
+  
+
   $("#total-time-played").text(totalPlayedSeconds);
 
   $("#promah-played").text(Promah);
