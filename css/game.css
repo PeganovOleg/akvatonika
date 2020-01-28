@@ -1,0 +1,20 @@
+.game-field {
+  background-color: #FFFF00;
+  min-height: 15vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 15vh;
+}
+
+.target {
+  background-color: #FFFF00;
+ background:url("heart.jpg");
+  background-size:cover;
+  background-repeat: no-repeat ;
+   color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: #8B0000;
+}
