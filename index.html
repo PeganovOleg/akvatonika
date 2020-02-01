@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/game.css">
 
-    <title>Аква тоника-игра</title>
+    <title>ИГРА "ПОЙМАЙ СЕРДЦЕ"</title>
 
 
   </head>
   <body>
 
     <div class="container">
-      <h1>ИГРА "ПОЙМАЙ СЕРДЦЕ"</h1>
+
+    
+       <div class="row">
+        <h1><span class="text-bottom">"СОБЕРИ 14 СЕРДЕЦ"</span></h1>
+         <h1></h1>
+        <button id="button-reload" class="btn btn-primary text-bottom2">ПЕРЕГРУЗИТЬ</button>
+      </div>
+
 
    
       <div class="row">
@@ -67,14 +74,12 @@
       </div>
 
       <div id="win-message" class="d-none">
-        <!-- TODO: можно добавить красные квадратики с отрицательным весом и делать счёт попаданий в конце как разницу очков за попадание минус штрафные -->
-        <h2>Вы поймали 14 сердец за <span id="total-time-played"></span> секунд</h2>
-        <h3>Вы допустили <span id="promah-played"></span> промахов!</h3>
+        
+        <h2>Вы собрали 14 сердец за <span id="total-time-played"></span> секунд</h2>
+        <h3><span id="promah-played3"></span><span id="promah-played"></span> <span id="promah-played2"></span></h3>
         <h4><span id="promah-played-non"></span> </h4>
       </div>
-      <div class="row">
-        <button id="button-reload" class="btn btn-primary">REBOOT</button>
-      </div>
+     
     </div>
 
 

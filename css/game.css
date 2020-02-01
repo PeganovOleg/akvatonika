@@ -3,6 +3,7 @@
   min-height: 10vh;
     margin: 1px 1px 1px 1px;
   line-height: 10vh;
+ 
 }
 
 .target {
@@ -19,6 +20,11 @@
   background-color: #8B0000;
 }
 
+body {
+  background-color: #DCDCDC;
+
+}
+
 @media (max-width: 550px) {
   .target {
     background-size:100% 100%;
@@ -30,6 +36,25 @@
   min-height: 9vh;
    margin: 1px 1px 1px 1px;
   line-height: 9vh;
+
+}
+.miss {
+  background-color: #00008B;
 }
 
+
+
+
+}
+
+.text-bottom{
+ font-size: 18pt;
+  text-align: center;
+  color:#0000FF; 
+}
+
+.text-bottom2{
+ font-size: 8pt;
+  text-align: center;
+  color:Snow; 
 }

@@ -5,6 +5,8 @@ const pobeda  = "ура! ни одного промаха! мороженка п
 let hits = 0;
 let firstHitTime = 0;
 let Promah=0;
+let Promah2="промахов((";
+let Promah3="допущено ";
 
 function round() {
 
@@ -42,11 +44,18 @@ if (Promah===0)
   { 
    $("#promah-played-non").text(pobeda);
   }
+  else {
+
+   $("#promah-played3").text(Promah3);
+   $("#promah-played").text(Promah);
+   $("#promah-played2").text(Promah2);
+ }
+
   
 
   $("#total-time-played").text(totalPlayedSeconds);
 
-  $("#promah-played").text(Promah);
+  
 
   $("#win-message").removeClass("d-none");
 }
