@@ -42,7 +42,8 @@ function endGame() {
 
 if (Promah===0) 
   { 
-   $("#promah-played-non").text(pobeda);
+  // $("#promah-played-non").text(pobeda);
+   $("#promah-played-non").html('НИ ОДНОГО ПРОМАХА!<br>ПРИЗ ПОЧТИ ВАШ!<br>');
 $("#win-message2").removeClass("d-none");
    
   }
