@@ -43,6 +43,8 @@ function endGame() {
 if (Promah===0) 
   { 
    $("#promah-played-non").text(pobeda);
+$("#win-message2").removeClass("d-none");
+   
   }
   else {
 
