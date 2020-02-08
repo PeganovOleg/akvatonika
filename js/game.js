@@ -51,7 +51,8 @@ $("#win-message2").removeClass("d-none");
 
    $("#promah-played3").text(Promah3);
    $("#promah-played").text(Promah);
-   $("#promah-played2").text(Promah2);
+  // $("#promah-played2").text(Promah2);
+   $("#promah-played2").html('промахов<br>');
    $("#promah-played4").text(Promah4);
  }
 
