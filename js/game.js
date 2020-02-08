@@ -1,13 +1,13 @@
 const numDivs = 30;
 const maxHits = 14;
-const pobeda  = "ура! ни одного промаха! мороженка почти ваша!"
+const pobeda  = "НИ ОДНОГО ПРОМАХА! ПРИЗ уже почти ваш!"
 
 let hits = 0;
 let firstHitTime = 0;
 let Promah=0;
-let Promah2="промахов((";
-let Promah3="допущено ";
-
+let Promah2=" промахов((";
+let Promah3="Вы сделали ";
+let Promah4="ПРОМАХИ НЕДОПУСТИМЫ!";
 function round() {
 
 
@@ -49,6 +49,7 @@ if (Promah===0)
    $("#promah-played3").text(Promah3);
    $("#promah-played").text(Promah);
    $("#promah-played2").text(Promah2);
+   $("#promah-played4").text(Promah4);
  }
 
   
@@ -72,7 +73,7 @@ function handleClick(event) {
 }
 
 function init() {
-  // TODO: заказчик просил отдельную кнопку, запускающую игру а не просто по загрузке
+
   round();
 
   $(".game-field").click(handleClick);

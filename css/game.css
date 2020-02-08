@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: #DCDCDC;
+  background-color: #f0ffff;
 
 }
 
@@ -39,13 +39,25 @@ body {
 
 }
 .miss {
-  background-color: #00008B;
+ 
+ 
 }
 
 
+.game-field2 {
+  background-color: red;
+   text-align: center;
+  color:white;
+  font-size: 15pt;
+  } 
 
+  .game-field3 {
+ 
+   text-align: center;
+  color:#00bfff;
+  font-size: 15pt;
+  } 
 
-}
 
 .text-bottom{
  font-size: 18pt;
